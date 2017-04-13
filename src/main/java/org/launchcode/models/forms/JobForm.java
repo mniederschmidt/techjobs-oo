@@ -27,7 +27,6 @@ public class JobForm {
         with correct validation attributes and display names.
         Don't forget to add getters and setters
      */
-
     private int locationId;
     private int coreCompetencyId;
     private int positionTypeId;
@@ -44,7 +43,6 @@ public class JobForm {
         /*
             TODO #4 - populate the other ArrayList collections needed in the view
         */
-
         employers = jobData.getEmployers().findAll();
         locations = jobData.getLocations().findAll();
         coreCompetencies = jobData.getCoreCompetencies().findAll();
